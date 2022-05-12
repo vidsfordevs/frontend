@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* *{
+  background-color:#61dafb;
+} */
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+.start{
+  background: url("https://images.unsplash.com/photo-1586191582151-f73872dfd183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxNzA4Mjc2fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+
+}
+
+.query-bg{
+  background: linear-gradient(to right, #000000b8, #000000b8), url("https://wallpaperaccess.com/full/1619056.jpg");
+    height: 100%;
+} 
+
+.close{
+  background: url("https://images.unsplash.com/photo-1586191582151-f73872dfd183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3wxNzA4Mjc2fHxlbnwwfHx8fA%3D%3D&w=1000&q=80");
+  width: 100%;
+  min-height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+
+}
+
+.with{
+  background-color: #2ccf9e;
+  width: 95%;
+  margin-left: 2%;
+  outline: none;
+}
+button :active{
+  outline: none;
+}
+
+
+.app-wrapper{
+  background-color: #fff;
+  min-width: 300px;
+  min-height: 500px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 50vh;
+}
+.app-wrapper-0{
+  background-color: #fff;
+  min-width: 350px;
+  min-height: 60px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 50vh;
+  margin-top: 5vh;
+
+}
+.title{
+color: #f80759;
+text-align: center;
+margin: 80px 0px 40px 0px;
+
+}
+
+.title-0{
+color: #f80759;
+text-align: center;
+margin: 8px 0px 40px 0px;
+
+}
+.none
+.email
+.password{
+margin: 20px;
+color: #969292;
+font-size: 16px;
+}
+
+.img{
+
+margin-left: -5%;
+margin-top: -4%;
+}
+
+.password{
+  margin-bottom: 40px; 
+
+}
+.input{
+  height: 32px;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border-top-style:none;
+  border-right-style:none;
+  border-left-style:none;
+  border-bottom-style:2px solid black;
+  margin-bottom: 10px;
+
+}
+.error{
+  color: red;
+}
+.submit{
+  display: flex;
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 25px;
+  color: white;
+  padding: 5px 50px;
+  background: linear-gradient(to right,#ab1dcf,#f80759);
+  margin:auto;
+  box-shadow: rgba(0, 0,0,0) 0px 19px 38px, rgba(0, 0,0,0.22) 0px 15px 12px;
+  margin: auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+button:active{
+
+  transform: translate(2px);
+}
+.form-success{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  min-width: 370px;
+  color: #f80759;
+}
+/* *{
+  background-color:#2ccf9e;
+}  */
+
+.form{
+  background-color:white;
+  height: 60vh;
+  width: 60vh;
+  margin: 0% 10% 10% 27%;
+
+
+}
+.margin{
+  margin-top: -3%;
+}
+.btn-google {
+  color: #545454;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 1px #ddd
+}
+/* .img-fluid{
+  height: 7vh;
+  margin-top: -10px;
+ 
+} */
+.btn-lg{
+  height: 50px;
+}
+
+.view-query, .list-query{
+  background: linear-gradient(to right,#58c7d1,#5dd6bc);
+}
+.home{
+  margin-left: -1vh;
+}
+.header{
+  background-image: linear-gradient(to right, #2a2a2a6a, #1f1f1f7c), url("https://wallpaperaccess.com/full/1619056.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  width: 100%;
+}
+.background{
+  background-image:  url("https://wallpaper.dog/large/10881763.jpg");
+  height: 100%;
+  width: 100%;
+  
+}
+.bootom{
+  height: 10%;
+}
+.query-top{
+  /* background: url("http://adwallpapers.xyz/uploads/posts/239359-sunlight-digital-art-simple-background-green-blue-texture-circle-atmosphere-waveforms-light-color-wave-shape-design-line-ceiling-screenshot-computer-wallpaper-font.jpg"); */
+  background-size: cover;
+  background-position: 'center';
+  /* height: 10rem; */
+  padding: 2rem;
+  width: 101%;
+}
+.query-listing{
+width: 100%;
+
+}
+.height{
+  height: 100vh;
+}
