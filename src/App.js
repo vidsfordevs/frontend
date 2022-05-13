@@ -52,7 +52,7 @@ function App() {
               <Route element={<About />} path="about" />
               <Route element={<QueryListing />} path="querylisting" />
               <Route element={<ListVideo />} path="listvideo" />
-              <Route element={<Home />} path="home" />
+              <Route element={<Home />} path="/home" />
               <Route element={<LoginPage></LoginPage>} path="login" />
               <Route element={<Signup></Signup>} path="signup" />
               <Route element={<ViewSolution />} path="viewsolution/:id"/>

@@ -85,7 +85,7 @@ const Footer = () => {
             <p>
             Our public platform serves 100 million people every month, making it one of the most popular websites in the world.
 
-Our asynchronous knowledge management and collaboration offering, Stack Overflow for Teams, is transforming how people work.
+Our asynchronous knowledge management and collaboration offering, vids for devs  for Teams, is transforming how people work.
             </p>
           </div>
          
